@@ -1,0 +1,17 @@
+version: '3.5'
+
+services: 
+
+  robofriends-app:
+    container_name: robofriends-app
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports: 
+      - '3030:3000'
+      - '35729:35729'
+    environment: 
+      - NODE_ENV=development
