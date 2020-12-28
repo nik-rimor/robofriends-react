@@ -12,13 +12,13 @@ h1 {
 	font-family: 'SEGA LOGO FONT';
 	font-weight: 200;
 	color: #0ccac4;
-	border: 2px solid rgba(7,27,82,1);
-	width: 400px;
+	/* border: 2px solid rgba(7,27,82,1); */
+	/* width: 400px; */
 	text-align: center;
-	-moz-box-shadow:4px 4px 5px lightgreen;
+	/* -moz-box-shadow:4px 4px 5px lightgreen;
 	-ms-box-shadow: 4px 4px 5px lightgreen;
 	-webkit-box-shadow: 4px 4px 5px lightgreen;
 	-o-box-shadow: 4px 4px 5px lightgreen;
-	box-shadow: 4px 4px 5px lightgreen;
+	box-shadow: 4px 4px 5px lightgreen; */
 	margin-top: 10px;
 }
